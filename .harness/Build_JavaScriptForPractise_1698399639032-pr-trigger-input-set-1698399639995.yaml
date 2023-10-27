@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JavaScriptForPractise_1698399639032-pr-trigger-input-set
+  identifier: Build_JavaScriptForPractise_1698399639032prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_JavaScriptForPractise_1698399639032
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
