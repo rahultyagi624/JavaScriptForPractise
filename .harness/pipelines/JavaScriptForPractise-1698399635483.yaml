@@ -26,9 +26,11 @@ pipeline:
                   timeout: ""
                   type: Run
           platform:
-            os: Linux
+            os: Windows
             arch: Amd64
           runtime:
             type: Cloud
             spec: {}
         type: CI
+  flowControl:
+    barriers: []
